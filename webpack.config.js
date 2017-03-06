@@ -24,7 +24,9 @@ module.exports = {
     alias: {
       Main: 'app/components/Main.jsx',
       applicationStyles: 'app/styles/app.scss',
-      Navigation: 'app/components/Navigation.jsx'
+      Navigation: 'app/components/Navigation.jsx',
+      Timer: 'app/components/Timer.jsx',
+      CountDown: 'app/components/CountDown.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
@@ -40,5 +42,6 @@ module.exports = {
       }
     ]
   },
-  devtool: 'cheap-module-eval-source-map'
+  //devtool: 'cheap-module-eval-source-map'
+  devtool: 'source-map'
 };
